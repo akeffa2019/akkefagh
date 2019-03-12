@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2706EADA2208C4D900D98093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAD92208C4D900D98093 /* AppDelegate.swift */; };
+		2706EADC2208C4D900D98093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EADB2208C4D900D98093 /* ViewController.swift */; };
+		2706EADF2208C4D900D98093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2706EADD2208C4D900D98093 /* Main.storyboard */; };
+		2706EAE22208C4D900D98093 /* Akeffa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAE02208C4D900D98093 /* Akeffa.xcdatamodeld */; };
+		2706EAE42208C4DE00D98093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2706EAE32208C4DE00D98093 /* Assets.xcassets */; };
+		2706EAE72208C4DE00D98093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2706EAE52208C4DE00D98093 /* LaunchScreen.storyboard */; };
+		2706EAF12208CD4B00D98093 /* MainLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAF02208CD4B00D98093 /* MainLessons.swift */; };
+		2706EAF32208CD5800D98093 /* SubLettersLessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAF22208CD5800D98093 /* SubLettersLessons.swift */; };
+		2706EAF52208CD6400D98093 /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAF42208CD6400D98093 /* Lesson.swift */; };
+		2706EAF92208D21D00D98093 /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAF72208D21D00D98093 /* ExpandableHeaderView.swift */; };
+		2706EAFA2208D21D00D98093 /* section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706EAF82208D21D00D98093 /* section.swift */; };
+		2706EAFC220901D900D98093 /* Good Job!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2706EAFB220901D900D98093 /* Good Job!.mp3 */; };
+		2706EAFE220901E700D98093 /* incorrect sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2706EAFD220901E700D98093 /* incorrect sound effect.mp3 */; };
+		2746B95E22096D1E005099E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2746B95D22096D1E005099E7 /* GoogleService-Info.plist */; };
+		91AAFEBF8394AB27D51DBEF7 /* Pods_Akeffa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D10C3EEC981D883752028D1 /* Pods_Akeffa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D10C3EEC981D883752028D1 /* Pods_Akeffa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Akeffa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2706EAD62208C4D900D98093 /* Akeffa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Akeffa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2706EAD92208C4D900D98093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2706EADB2208C4D900D98093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2706EADE2208C4D900D98093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2706EAE12208C4D900D98093 /* Akeffa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Akeffa.xcdatamodel; sourceTree = "<group>"; };
+		2706EAE32208C4DE00D98093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2706EAE62208C4DE00D98093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2706EAE82208C4DE00D98093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2706EAF02208CD4B00D98093 /* MainLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLessons.swift; sourceTree = "<group>"; };
+		2706EAF22208CD5800D98093 /* SubLettersLessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubLettersLessons.swift; sourceTree = "<group>"; };
+		2706EAF42208CD6400D98093 /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		2706EAF72208D21D00D98093 /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		2706EAF82208D21D00D98093 /* section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = section.swift; sourceTree = "<group>"; };
+		2706EAFB220901D900D98093 /* Good Job!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Good Job!.mp3"; sourceTree = "<group>"; };
+		2706EAFD220901E700D98093 /* incorrect sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "incorrect sound effect.mp3"; sourceTree = "<group>"; };
+		2746B95D22096D1E005099E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Akeffa/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9E9645223B857E6B708A24F9 /* Pods-Akeffa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Akeffa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Akeffa/Pods-Akeffa.debug.xcconfig"; sourceTree = "<group>"; };
+		EC0B78D46CC214E6CEA24BEC /* Pods-Akeffa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Akeffa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Akeffa/Pods-Akeffa.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2706EAD32208C4D900D98093 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91AAFEBF8394AB27D51DBEF7 /* Pods_Akeffa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2706EACD2208C4D900D98093 = {
+			isa = PBXGroup;
+			children = (
+				2706EAD82208C4D900D98093 /* Akeffa */,
+				2706EAD72208C4D900D98093 /* Products */,
+				EB5F82B78F132A1558006FB3 /* Pods */,
+				3791FE3DAAE83ADF4ACF3AA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2706EAD72208C4D900D98093 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2706EAD62208C4D900D98093 /* Akeffa.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2706EAD82208C4D900D98093 /* Akeffa */ = {
+			isa = PBXGroup;
+			children = (
+				2706EAF62208D21D00D98093 /* ExpandableHeaderView */,
+				2706EADD2208C4D900D98093 /* Main.storyboard */,
+				2706EAD92208C4D900D98093 /* AppDelegate.swift */,
+				2706EADB2208C4D900D98093 /* ViewController.swift */,
+				2706EAF02208CD4B00D98093 /* MainLessons.swift */,
+				2706EAF22208CD5800D98093 /* SubLettersLessons.swift */,
+				2706EAF42208CD6400D98093 /* Lesson.swift */,
+				2706EAFD220901E700D98093 /* incorrect sound effect.mp3 */,
+				2706EAE32208C4DE00D98093 /* Assets.xcassets */,
+				2706EAE52208C4DE00D98093 /* LaunchScreen.storyboard */,
+				2706EAFB220901D900D98093 /* Good Job!.mp3 */,
+				2706EAE82208C4DE00D98093 /* Info.plist */,
+				2706EAE02208C4D900D98093 /* Akeffa.xcdatamodeld */,
+			);
+			path = Akeffa;
+			sourceTree = "<group>";
+		};
+		2706EAF62208D21D00D98093 /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				2746B95D22096D1E005099E7 /* GoogleService-Info.plist */,
+				2706EAF72208D21D00D98093 /* ExpandableHeaderView.swift */,
+				2706EAF82208D21D00D98093 /* section.swift */,
+			);
+			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		3791FE3DAAE83ADF4ACF3AA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D10C3EEC981D883752028D1 /* Pods_Akeffa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB5F82B78F132A1558006FB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E9645223B857E6B708A24F9 /* Pods-Akeffa.debug.xcconfig */,
+				EC0B78D46CC214E6CEA24BEC /* Pods-Akeffa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2706EAD52208C4D900D98093 /* Akeffa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2706EAEB2208C4DE00D98093 /* Build configuration list for PBXNativeTarget "Akeffa" */;
+			buildPhases = (
+				BFD5954F70BDBE5C9B53E983 /* [CP] Check Pods Manifest.lock */,
+				2706EAD22208C4D900D98093 /* Sources */,
+				2706EAD32208C4D900D98093 /* Frameworks */,
+				2706EAD42208C4D900D98093 /* Resources */,
+				890BD3E6DCAA617D10B0A69E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Akeffa;
+			productName = Akeffa;
+			productReference = 2706EAD62208C4D900D98093 /* Akeffa.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2706EACE2208C4D900D98093 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Bashayr Hindi";
+				TargetAttributes = {
+					2706EAD52208C4D900D98093 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 2706EAD12208C4D900D98093 /* Build configuration list for PBXProject "Akeffa" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2706EACD2208C4D900D98093;
+			productRefGroup = 2706EAD72208C4D900D98093 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2706EAD52208C4D900D98093 /* Akeffa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2706EAD42208C4D900D98093 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2706EAE72208C4DE00D98093 /* LaunchScreen.storyboard in Resources */,
+				2706EAE42208C4DE00D98093 /* Assets.xcassets in Resources */,
+				2706EAFE220901E700D98093 /* incorrect sound effect.mp3 in Resources */,
+				2706EAFC220901D900D98093 /* Good Job!.mp3 in Resources */,
+				2706EADF2208C4D900D98093 /* Main.storyboard in Resources */,
+				2746B95E22096D1E005099E7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		890BD3E6DCAA617D10B0A69E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Akeffa/Pods-Akeffa-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Akeffa/Pods-Akeffa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFD5954F70BDBE5C9B53E983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Akeffa-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2706EAD22208C4D900D98093 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2706EAF12208CD4B00D98093 /* MainLessons.swift in Sources */,
+				2706EAF92208D21D00D98093 /* ExpandableHeaderView.swift in Sources */,
+				2706EAE22208C4D900D98093 /* Akeffa.xcdatamodeld in Sources */,
+				2706EADC2208C4D900D98093 /* ViewController.swift in Sources */,
+				2706EAF52208CD6400D98093 /* Lesson.swift in Sources */,
+				2706EAFA2208D21D00D98093 /* section.swift in Sources */,
+				2706EAF32208CD5800D98093 /* SubLettersLessons.swift in Sources */,
+				2706EADA2208C4D900D98093 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2706EADD2208C4D900D98093 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2706EADE2208C4D900D98093 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2706EAE52208C4DE00D98093 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2706EAE62208C4DE00D98093 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2706EAE92208C4DE00D98093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2706EAEA2208C4DE00D98093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2706EAEC2208C4DE00D98093 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E9645223B857E6B708A24F9 /* Pods-Akeffa.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S726YB7K9;
+				INFOPLIST_FILE = Akeffa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akeffa1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2706EAED2208C4DE00D98093 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC0B78D46CC214E6CEA24BEC /* Pods-Akeffa.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S726YB7K9;
+				INFOPLIST_FILE = Akeffa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akeffa1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2706EAD12208C4D900D98093 /* Build configuration list for PBXProject "Akeffa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2706EAE92208C4DE00D98093 /* Debug */,
+				2706EAEA2208C4DE00D98093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2706EAEB2208C4DE00D98093 /* Build configuration list for PBXNativeTarget "Akeffa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2706EAEC2208C4DE00D98093 /* Debug */,
+				2706EAED2208C4DE00D98093 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2706EAE02208C4D900D98093 /* Akeffa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2706EAE12208C4D900D98093 /* Akeffa.xcdatamodel */,
+			);
+			currentVersion = 2706EAE12208C4D900D98093 /* Akeffa.xcdatamodel */;
+			path = Akeffa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2706EACE2208C4D900D98093 /* Project object */;
+}

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zD1-rp-9H5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Akeffa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fqo-tN-Gr9">
+                                <rect key="frame" x="129" y="282" width="131" height="254"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOf-6H-eA7">
+                                        <rect key="frame" x="20" y="20" width="91" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="متعلم "/>
+                                        <connections>
+                                            <segue destination="zD1-rp-9H5" kind="show" id="4VT-88-R0u"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25W-dj-zIg">
+                                        <rect key="frame" x="20" y="105" width="91" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="مرشد"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJO-20-Tsg">
+                                        <rect key="frame" x="20" y="186" width="91" height="48"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="مسؤول"/>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تطبيق اكِفّاء" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wuG-Tg-oEp">
+                                <rect key="frame" x="105" y="83" width="163" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="تطبيق يهدف لتعليم النظام الجديد -نظام تاله- " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSD-um-4qK">
+                                <rect key="frame" x="30" y="172" width="328" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اختر تسجيل الدخول المناسب : " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AQG-gI-e2K">
+                                <rect key="frame" x="91" y="214" width="223" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1670" y="121"/>
+        </scene>
+        <!--view Controller-->
+        <scene sceneID="aAd-2i-ut9">
+            <objects>
+                <viewController id="zD1-rp-9H5" userLabel="view Controller" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Wy-Jg-aAM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="الصفحة الرئيسية " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hnf-T6-KuE">
+                                <rect key="frame" x="81" y="91" width="237" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="اختر من بين التالي :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ew5-Wa-m1z">
+                                <rect key="frame" x="130" y="183" width="139" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVA-N1-4Oe">
+                                <rect key="frame" x="253" y="608" width="106" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="رقم التعريف "/>
+                                <connections>
+                                    <segue destination="LfY-SZ-dDm" kind="show" id="uI7-Pg-pCM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2m-gh-aQE">
+                                <rect key="frame" x="16" y="20" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="عودة"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="cBE-Vf-47e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxJ-Rp-3lC">
+                                <rect key="frame" x="93" y="269" width="213" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="تعرف على التطبيق "/>
+                                <connections>
+                                    <segue destination="J1k-gV-cG9" kind="show" id="W7J-QV-5PE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxg-N5-3gJ">
+                                <rect key="frame" x="121" y="358" width="134" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="إبدأِ الدروس"/>
+                                <connections>
+                                    <segue destination="CYB-6n-674" kind="show" id="vkB-Sy-exw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OzW-F9-U5B">
+                                <rect key="frame" x="107" y="451" width="162" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="إبدأِ الاختبارات"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="hFm-ZP-3Is"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OOv-1c-WBg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-951" y="-1034"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qAT-By-29e">
+            <objects>
+                <viewController id="J1k-gV-cG9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="itq-gE-NAE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Pe-ag-CPP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S9Z-7j-bIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167" y="-680"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Mh0-Ou-Q0k">
+            <objects>
+                <viewController id="LfY-SZ-dDm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Rgr-ow-GIP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="84r-20-C4s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K6x-ku-3a0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="534" y="-680"/>
+        </scene>
+        <!--Main Lessons-->
+        <scene sceneID="AEW-iM-dms">
+            <objects>
+                <viewController id="CYB-6n-674" customClass="MainLessons" customModule="Akeffa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ne3-l3-SXP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="صفحة الدروس الرئيسية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1X1-KS-PMF">
+                                <rect key="frame" x="0.0" y="86" width="375" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر أحد الأقسام التالية :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Irt-gr-VEK">
+                                <rect key="frame" x="0.0" y="135" width="375" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="dFZ-0R-ebq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ZtU-VZ-jF4">
+                                <rect key="frame" x="0.0" y="186" width="375" height="481"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="mainCell" id="Hwi-tx-HB7">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Hwi-tx-HB7" id="gcK-3B-vce">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2cM-sR-Oeu">
+                                <rect key="frame" x="0.0" y="48" width="375" height="30"/>
+                                <state key="normal" title="اضغط للعودة للصفحة الرئيسية"/>
+                                <connections>
+                                    <action selector="back:" destination="CYB-6n-674" eventType="touchUpInside" id="96E-eh-L9b"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2cM-sR-Oeu" firstAttribute="leading" secondItem="ne3-l3-SXP" secondAttribute="leading" id="24V-1e-NsT"/>
+                            <constraint firstItem="1X1-KS-PMF" firstAttribute="trailing" secondItem="Irt-gr-VEK" secondAttribute="trailing" id="9Fm-oZ-2jy"/>
+                            <constraint firstItem="1X1-KS-PMF" firstAttribute="top" secondItem="2cM-sR-Oeu" secondAttribute="bottom" constant="8" symbolic="YES" id="Bgx-31-3Dk"/>
+                            <constraint firstItem="2cM-sR-Oeu" firstAttribute="trailing" secondItem="1X1-KS-PMF" secondAttribute="trailing" id="Nvh-Jn-PF7"/>
+                            <constraint firstItem="2cM-sR-Oeu" firstAttribute="top" secondItem="T1c-35-a8I" secondAttribute="top" constant="28" id="TEh-Vl-9Dw"/>
+                            <constraint firstItem="Irt-gr-VEK" firstAttribute="top" secondItem="1X1-KS-PMF" secondAttribute="bottom" constant="8" symbolic="YES" id="WC9-iN-cg1"/>
+                            <constraint firstItem="1X1-KS-PMF" firstAttribute="leading" secondItem="Irt-gr-VEK" secondAttribute="leading" id="ace-yO-rlG"/>
+                            <constraint firstItem="2cM-sR-Oeu" firstAttribute="leading" secondItem="1X1-KS-PMF" secondAttribute="leading" id="kgy-9D-qqI"/>
+                            <constraint firstItem="ZtU-VZ-jF4" firstAttribute="top" secondItem="Irt-gr-VEK" secondAttribute="bottom" constant="4" id="lPB-x5-5uE"/>
+                            <constraint firstAttribute="trailing" secondItem="2cM-sR-Oeu" secondAttribute="trailing" id="lwi-Rr-VSO"/>
+                            <constraint firstItem="Irt-gr-VEK" firstAttribute="trailing" secondItem="ZtU-VZ-jF4" secondAttribute="trailing" id="mC1-VL-43A"/>
+                            <constraint firstItem="Irt-gr-VEK" firstAttribute="leading" secondItem="ZtU-VZ-jF4" secondAttribute="leading" id="qqw-NB-Jon"/>
+                            <constraint firstItem="ZtU-VZ-jF4" firstAttribute="bottom" secondItem="T1c-35-a8I" secondAttribute="bottom" id="qsN-lt-9hl"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="T1c-35-a8I"/>
+                    </view>
+                    <connections>
+                        <outlet property="mainList" destination="ZtU-VZ-jF4" id="TGE-sY-s8D"/>
+                        <segue destination="qim-Ea-eXv" kind="show" identifier="mainLessonSegue" id="eq3-ac-Yho"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vZ1-EG-Jkq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167.19999999999999" y="-1354.2728635682161"/>
+        </scene>
+        <!--Sub Letters Lessons-->
+        <scene sceneID="ObU-Yc-c95">
+            <objects>
+                <viewController storyboardIdentifier="letters" id="qim-Ea-eXv" customClass="SubLettersLessons" customModule="Akeffa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fmS-pw-W6V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر درس من بين التالي :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXD-i8-PHZ">
+                                <rect key="frame" x="0.0" y="135" width="375" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="gEu-Px-NFX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" قائمة الدروس" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cSx-m2-exR">
+                                <rect key="frame" x="0.0" y="86" width="375" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="FKo-os-hoh">
+                                <rect key="frame" x="0.0" y="190" width="375" height="477"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="LmV-e5-dmA">
+                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="LmV-e5-dmA" id="46c-fc-86L">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilF-HW-u8c">
+                                <rect key="frame" x="0.0" y="48" width="375" height="30"/>
+                                <state key="normal" title="اضغط للعودة لصفحة الدروس الرئيسية"/>
+                                <connections>
+                                    <action selector="back:" destination="qim-Ea-eXv" eventType="touchUpInside" id="ymf-AT-CgR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ilF-HW-u8c" firstAttribute="top" secondItem="jeR-SJ-VKv" secondAttribute="top" constant="28" id="Dav-mX-qqi"/>
+                            <constraint firstItem="ilF-HW-u8c" firstAttribute="leading" secondItem="cSx-m2-exR" secondAttribute="leading" id="GZx-Px-mrE"/>
+                            <constraint firstItem="lXD-i8-PHZ" firstAttribute="top" secondItem="cSx-m2-exR" secondAttribute="bottom" constant="8" symbolic="YES" id="Gum-MN-Nup"/>
+                            <constraint firstItem="cSx-m2-exR" firstAttribute="trailing" secondItem="lXD-i8-PHZ" secondAttribute="trailing" id="IOs-k6-S9i"/>
+                            <constraint firstItem="lXD-i8-PHZ" firstAttribute="trailing" secondItem="FKo-os-hoh" secondAttribute="trailing" id="SLb-fz-m9k"/>
+                            <constraint firstItem="cSx-m2-exR" firstAttribute="leading" secondItem="lXD-i8-PHZ" secondAttribute="leading" id="VPi-Ic-26m"/>
+                            <constraint firstItem="ilF-HW-u8c" firstAttribute="leading" secondItem="fmS-pw-W6V" secondAttribute="leading" id="e12-6Z-8UM"/>
+                            <constraint firstItem="lXD-i8-PHZ" firstAttribute="leading" secondItem="FKo-os-hoh" secondAttribute="leading" id="jk7-J2-0GK"/>
+                            <constraint firstItem="ilF-HW-u8c" firstAttribute="trailing" secondItem="cSx-m2-exR" secondAttribute="trailing" id="lJO-s2-jNJ"/>
+                            <constraint firstItem="FKo-os-hoh" firstAttribute="bottom" secondItem="jeR-SJ-VKv" secondAttribute="bottom" id="ou5-nz-k79"/>
+                            <constraint firstAttribute="trailing" secondItem="ilF-HW-u8c" secondAttribute="trailing" id="sBj-fi-fx0"/>
+                            <constraint firstItem="cSx-m2-exR" firstAttribute="top" secondItem="ilF-HW-u8c" secondAttribute="bottom" constant="8" symbolic="YES" id="z5j-sC-bdq"/>
+                            <constraint firstItem="FKo-os-hoh" firstAttribute="top" secondItem="lXD-i8-PHZ" secondAttribute="bottom" constant="8" symbolic="YES" id="zVe-7Z-hjZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="jeR-SJ-VKv"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="FKo-os-hoh" id="AWn-mz-7nN"/>
+                        <segue destination="v57-9s-gPa" kind="show" identifier="subLessonSegue" id="9jk-gz-U9s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qLC-xu-cz9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="533.60000000000002" y="-1355.1724137931035"/>
+        </scene>
+        <!--Lesson-->
+        <scene sceneID="hoa-bH-krp">
+            <objects>
+                <viewController id="v57-9s-gPa" customClass="Lesson" customModule="Akeffa" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R1P-iC-rHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="إكتب حرف الألِف" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iwt-TN-mmz">
+                                <rect key="frame" x="0.0" y="294" width="378" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="E6u-8p-DkD"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="checkAnswer:" destination="v57-9s-gPa" eventType="editingChanged" id="Rmk-Hy-R9r"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ufd-VJ-fYM">
+                                <rect key="frame" x="0.0" y="35" width="375" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="lph-Hy-8KK"/>
+                                </constraints>
+                                <state key="normal" title="اضغط للعودة لقائمة الدروس، أو إنزَلِقْ لِلْأَسْفلْ، لِإِسْتِكْمَالِ الدَرس"/>
+                                <connections>
+                                    <action selector="backButton:" destination="v57-9s-gPa" eventType="touchUpInside" id="VOH-W0-pg9"/>
+                                    <segue destination="qim-Ea-eXv" kind="show" identifier="les" id="nL2-C9-Y8k"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="حرفُ الألِفِ عِبارة عن مُرَبعٍ مفتوح من الأعلى وَ اليَسار" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jmp-2X-FPv">
+                                <rect key="frame" x="0.0" y="172" width="375" height="76"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJQ-fo-4ou">
+                                <rect key="frame" x="0.0" y="447" width="375" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="MZg-WU-2Dz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="إنتقل للحرفِ التَالِي"/>
+                                <connections>
+                                    <action selector="nextButton:" destination="v57-9s-gPa" eventType="touchUpInside" id="dO5-QR-UBN"/>
+                                    <segue destination="v57-9s-gPa" kind="show" identifier="next" id="WX4-Fh-xDp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="حرف الألِف" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dF1-Tj-JJX">
+                                <rect key="frame" x="0.0" y="94" width="375" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="zHT-92-bF2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zet-FY-wGV">
+                                <rect key="frame" x="0.0" y="376" width="375" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55" id="Kpi-Io-S4J"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="إنتقل للحرفِ السابق"/>
+                                <connections>
+                                    <action selector="previousButton:" destination="v57-9s-gPa" eventType="touchUpInside" id="qJM-vy-zMk"/>
+                                    <segue destination="v57-9s-gPa" kind="show" identifier="previous" id="eQG-X7-NEd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Zet-FY-wGV" firstAttribute="top" secondItem="iwt-TN-mmz" secondAttribute="bottom" constant="57" id="0b7-7A-3An"/>
+                            <constraint firstItem="etq-w4-RVP" firstAttribute="bottom" secondItem="uJQ-fo-4ou" secondAttribute="bottom" constant="118" id="DXX-ot-64q"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iwt-TN-mmz" secondAttribute="trailing" constant="-19" id="Fnc-kw-sRU"/>
+                            <constraint firstItem="dF1-Tj-JJX" firstAttribute="leading" secondItem="jmp-2X-FPv" secondAttribute="leading" id="JVk-vW-nRY"/>
+                            <constraint firstItem="ufd-VJ-fYM" firstAttribute="trailing" secondItem="dF1-Tj-JJX" secondAttribute="trailing" id="LJI-uN-IeW"/>
+                            <constraint firstItem="jmp-2X-FPv" firstAttribute="leading" secondItem="iwt-TN-mmz" secondAttribute="leading" id="On9-if-pud"/>
+                            <constraint firstItem="dF1-Tj-JJX" firstAttribute="top" secondItem="ufd-VJ-fYM" secondAttribute="bottom" constant="8" symbolic="YES" id="TVr-OC-mqx"/>
+                            <constraint firstItem="dF1-Tj-JJX" firstAttribute="trailing" secondItem="jmp-2X-FPv" secondAttribute="trailing" id="VIQ-Hc-ZM7"/>
+                            <constraint firstItem="iwt-TN-mmz" firstAttribute="top" secondItem="jmp-2X-FPv" secondAttribute="bottom" constant="41" id="cbX-Ov-Ggt"/>
+                            <constraint firstItem="ufd-VJ-fYM" firstAttribute="leading" secondItem="dF1-Tj-JJX" secondAttribute="leading" id="fZT-GG-WSx"/>
+                            <constraint firstItem="ufd-VJ-fYM" firstAttribute="top" secondItem="etq-w4-RVP" secondAttribute="top" constant="62" id="gLQ-Tc-aNm"/>
+                            <constraint firstItem="iwt-TN-mmz" firstAttribute="leading" secondItem="Zet-FY-wGV" secondAttribute="leading" id="i9E-PG-ipH"/>
+                            <constraint firstItem="jmp-2X-FPv" firstAttribute="top" secondItem="dF1-Tj-JJX" secondAttribute="bottom" constant="8" symbolic="YES" id="jUl-uT-3Tw"/>
+                            <constraint firstItem="ufd-VJ-fYM" firstAttribute="leading" secondItem="R1P-iC-rHJ" secondAttribute="leading" id="lIp-PZ-eXy"/>
+                            <constraint firstItem="Zet-FY-wGV" firstAttribute="leading" secondItem="uJQ-fo-4ou" secondAttribute="leading" id="pMu-gt-jed"/>
+                            <constraint firstAttribute="trailing" secondItem="ufd-VJ-fYM" secondAttribute="trailing" id="uVh-mm-7p2"/>
+                            <constraint firstItem="jmp-2X-FPv" firstAttribute="trailing" secondItem="Zet-FY-wGV" secondAttribute="trailing" id="vlf-SR-buL"/>
+                            <constraint firstItem="Zet-FY-wGV" firstAttribute="trailing" secondItem="uJQ-fo-4ou" secondAttribute="trailing" id="x2c-r8-8Ug"/>
+                            <constraint firstItem="uJQ-fo-4ou" firstAttribute="top" secondItem="Zet-FY-wGV" secondAttribute="bottom" constant="16" id="xRQ-bK-e9g"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="etq-w4-RVP"/>
+                    </view>
+                    <connections>
+                        <outlet property="explaination" destination="jmp-2X-FPv" id="k46-4w-caV"/>
+                        <outlet property="lessonName" destination="dF1-Tj-JJX" id="RS4-OV-Seg"/>
+                        <outlet property="nextLesson" destination="uJQ-fo-4ou" id="HaG-E2-npk"/>
+                        <outlet property="practiceTextField" destination="iwt-TN-mmz" id="MBW-id-1lk"/>
+                        <outlet property="previousLesson" destination="Zet-FY-wGV" id="y2t-hD-8yE"/>
+                        <outlet property="view" destination="R1P-iC-rHJ" id="oqS-Tz-hk1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iI9-vj-m6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="-1355"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9jk-gz-U9s"/>
+        <segue reference="nL2-C9-Y8k"/>
+    </inferredMetricsTieBreakers>
+</document>
